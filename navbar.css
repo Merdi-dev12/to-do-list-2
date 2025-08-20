@@ -1,0 +1,41 @@
+.navbar-brand {
+  font-size: 1.4rem;
+}
+.input-group {
+  width: 300px;
+  margin-right: 20px;
+  margin-inline-start: 400px;
+}
+
+@media (max-width: 768px) {
+  .input-group {
+    margin-inline-start: auto;
+  }
+
+  .btn-connect {
+    border-radius: 8px;
+    margin-inline-start: auto;
+  }
+}
+
+.btn-connect {
+  border-radius: 8px;
+}
+
+.btn-search {
+  border-radius: 0px 20px 20px 0px;
+  width: 50px;
+  height: 40px;
+}
+
+.i-search {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #2b3035;
+  border: 1px solid #212529;
+  border: 1px solid #fff;
+}

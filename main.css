@@ -1,0 +1,15 @@
+/* Principal */
+
+.i-add {
+  width: 40px;
+  height: 40px;
+}
+
+.i-del {
+  width: 24px;
+  height: 24px;
+}
+
+.navbar-nav {
+  margin-inline-start: 200px;
+}
