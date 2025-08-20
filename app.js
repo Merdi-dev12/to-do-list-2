@@ -65,3 +65,5 @@ app.delete("/api/tasks/:id", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+
+fetch("https://mon-backend.render.com/taches");
